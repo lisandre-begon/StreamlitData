@@ -5,6 +5,7 @@ seaborn
 streamlit
 streamlit-folium
 streamlit-option-menu
+scikit-learn
 dask
 plotly
 requests

@@ -4,9 +4,9 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Charger les données CSV
-data = pd.read_csv('../data/processed/pop_prediction.csv')
-cities = pd.read_csv('../data/cities.csv')
-pop = pd.read_csv('../data/filtered_cities_population.csv')
+data = pd.read_csv('/data/processed/pop_prediction.csv')
+cities = pd.read_csv('/data/cities.csv')
+pop = pd.read_csv('/data/filtered_cities_population.csv')
 
 
 pouilloux = [46.604876131,4.35310787]
