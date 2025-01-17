@@ -1,7 +1,3 @@
-import pandas as pd
-
-# Remplacez 'france_grid.csv' par le chemin de votre fichier CSV
-df = pd.read_csv('france_grid.csv')
-
-# Affichez la valeur maximale de la colonne 'data'
-print(f"Max value: {df['data'].max()} at latitude: {df.loc[df['data'].idxmax(), 'latitude']} and longitude: {df.loc[df['data'].idxmax(), 'longitude']}")
+version https://git-lfs.github.com/spec/v1
+oid sha256:abc2820feca10c3bb4ab7f95e01d4686245b48e09c3fd139595cd6147a55794c
+size 326

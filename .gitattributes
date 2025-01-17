@@ -1,0 +1,8 @@
+data/processed/*.csv
+ filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+maillage/bornes_population/*.html filter=lfs diff=lfs merge=lfs -text
+maillage/bornes_population/*.csv filter=lfs diff=lfs merge=lfs -text
+maillage/bornes_ve/*.csv filter=lfs diff=lfs merge=lfs -text
+maillage/bornes_ve/*.html filter=lfs diff=lfs merge=lfs -text
+maillage/* filter=lfs diff=lfs merge=lfs -text

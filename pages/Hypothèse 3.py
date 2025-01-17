@@ -13,7 +13,7 @@ st.write("Carte des bornes / population")
 
 selected_year = st.slider("Sélectionnez l'année :", min_value=2012, max_value=2024, step=1)
 
-with open("/maillage/bornes_population/bornes_population_"+str(selected_year)+".html", "r", encoding="utf-8") as file:
+with open("../maillage/bornes_population/bornes_population_"+str(selected_year)+".html", "r", encoding="utf-8") as file:
     html_content = file.read()
 
 st.components.v1.html(html_content, height=600)

@@ -14,7 +14,7 @@ st.title("Analyse et Régression du Nombre de Bornes par Année")
 
 st.write("Objectif pour 2030 : 400 000 bornes en france")
 
-file_path = "/data/processed/grouped_borne.csv"
+file_path = "../data/processed/grouped_borne.csv"
 
 if file_path:
     # Lecture du CSV
